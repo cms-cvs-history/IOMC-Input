@@ -24,6 +24,6 @@ process PROD =
 # if you want the i/o option, make sure you include it in the path 
 #
     module Out = PoolOutputModule { string fileName = "test.root" }    
-    path p = { Analysis, Out }
+    path p = { Out }
 
 }
