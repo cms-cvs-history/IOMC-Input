@@ -1,14 +1,12 @@
 <use name=FWCore/Framework>
-<use name=FWCore/Sources>
 <use name=FWCore/ParameterSet>
 <use name=FWCore/Utilities>
-<use name=FWCore/PluginManager>
+<use name=Foundation/PluginManager>
 <use name=SimDataFormats/HepMCProduct>
 <use name=hepmc>
-<flags EDM_PLUGIN=1>
+<flags SEAL_PLUGIN_NAME="IOMCInput">
 <export>
   <use name=FWCore/Framework>
- <use name=FWCore/Sources>
   <use name=hepmc>
   <lib name=IOMCInput>
 </export>
