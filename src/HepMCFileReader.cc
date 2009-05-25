@@ -1,11 +1,11 @@
-// $Id: HepMCFileReader.cc,v 1.6 2007/05/29 21:00:00 weng Exp $
+// $Id: HepMCFileReader.cc,v 1.7 2007/06/19 12:06:41 weng Exp $
 
 /**  
 *  See header file for a description of this class.
 *
 *
-*  $Date: 2007/05/29 21:00:00 $
-*  $Revision: 1.6 $
+*  $Date: 2007/06/19 12:06:41 $
+*  $Revision: 1.7 $
 *  \author Jo. Weng  - CERN, Ph Division & Uni Karlsruhe
 */
 
@@ -18,7 +18,7 @@
 #include "HepMC/IO_Ascii.h"
 #include "HepMC/IO_ExtendedAscii.h"
 
-#include "CLHEP/Units/PhysicalConstants.h"
+#include "CLHEP/Units/GlobalPhysicalConstants.h"
 
 #include "IOMC/Input/interface/HepMCFileReader.h"
 #include "FWCore/MessageLogger/interface/MessageLogger.h"
